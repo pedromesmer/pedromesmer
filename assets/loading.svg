@@ -1,62 +1,60 @@
-<svg fill="none" viewBox="0 0 400 400" width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 150 40" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
     <foreignObject width="100%" height="100%">
+        <style>
+            .containerBalls {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .text {
+                margin-top: 25px;
+                font-family: 'Roboto', sans-serif;
+                color: #1a1a1a;
+                font-size: 25px;
+            }
+            .balls {
+                display: flex;
+                justify-content: center;
+            }
+            .balls > div {
+                display: inline-block;
+                background-color: #7a3e89;
+                width: 25px;
+                height: 25px;
+                border-radius: 100%;
+                margin: 3px;
+                -webkit-animation-fill-mode: both;
+                animation-fill-mode: both;
+                animation-name: animateBalls;
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
+            }
+            .balls > div:nth-child(1) {
+                animation-duration: 1s;
+                animation-delay: 0;
+            }
+            .balls > div:nth-child(2) {
+                animation-duration: 1s;
+                animation-delay: 0.30s;
+            }
+            .balls > div:nth-child(3) {
+                animation-duration: 1s;
+                animation-delay: 0.50s;
+            }
+
+            @keyframes animateBalls {
+                0% {
+                    /* -webkit-transform: scale(1); */
+                    transform: translateY(0);
+                }
+                50% {
+                    /* -webkit-transform: scale(1); */
+                    transform: translateY(40%);
+                }
+            }
+        </style>
         <div xmlns="http://www.w3.org/1999/xhtml">
-            <style>
-
-                .containerBalls {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    margin-top: 30px;
-                }
-                .text {
-                    margin-top: 25px;
-                    font-family: 'Roboto', sans-serif;
-                    color: #1a1a1a;
-                    font-size: 25px;
-                }
-                .balls {
-                    display: flex;
-                    justify-content: center;
-                }
-                .balls > div {
-                    display: inline-block;
-                    background-color: #7a3e89;
-                    width: 25px;
-                    height: 25px;
-                    border-radius: 100%;
-                    margin: 3px;
-                    -webkit-animation-fill-mode: both;
-                    animation-fill-mode: both;
-                    animation-name: animateBalls;
-                    animation-timing-function: linear;
-                    animation-iteration-count: infinite;
-                }
-                .balls > div:nth-child(1) {
-                    animation-duration: 1s;
-                    animation-delay: 0;
-                }
-                .balls > div:nth-child(2) {
-                    animation-duration: 1s;
-                    animation-delay: 0.30s;
-                }
-                .balls > div:nth-child(3) {
-                    animation-duration: 1s;
-                    animation-delay: 0.50s;
-                }
-
-                @keyframes animateBalls {
-                    0% {
-                        /* -webkit-transform: scale(1); */
-                        transform: translateY(0);
-                    }
-                    50% {
-                        /* -webkit-transform: scale(1); */
-                        transform: translateY(40%);
-                    }
-                }
-            </style>
 
             <div class='containerBalls'>
                 <div>

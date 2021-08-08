@@ -16,5 +16,5 @@ Here are some ideas to get you started:
 -->
 
 <div>
-    <img src="assets/loading.svg" width="100%" height="100px" alt="css-in-readme">
+    <img src="assets/loading.svg" width="100%" height='100px' alt="css-in-readme">
 </div>
