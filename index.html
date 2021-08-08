@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>loading</title>
+  </head>
+  <body>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+      .containerBalls {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+      }
+      .text {
+        margin-top: 25px;
+        font-family: 'Roboto', sans-serif;
+        color: #1a1a1a;
+        font-size: 25px;
+      }
+      .balls {
+          display: flex;
+          justify-content: center;
+      }
+      .balls > div {
+          display: inline-block;
+          background-color: #7a3e89;
+          width: 25px;
+          height: 25px;
+          border-radius: 100%;
+          margin: 3px;
+          -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+          animation-name: animateBalls;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+      }
+      .balls > div:nth-child(1) {
+          animation-duration: 1s;
+          animation-delay: 0;
+      }
+      .balls > div:nth-child(2) {
+          animation-duration: 1s;
+          animation-delay: 0.30s;
+      }
+      .balls > div:nth-child(3) {
+          animation-duration: 1s;
+          animation-delay: 0.50s;
+      }
+
+      @keyframes animateBalls {
+          0% {
+            /* -webkit-transform: scale(1); */
+            transform: translateY(0);
+          }
+          50% {
+            /* -webkit-transform: scale(1); */
+            transform: translateY(40%);
+          }
+      }
+    </style>
+
+    <div class='containerBalls'>
+      <div>
+          <div class="balls">
+              <div> </div>
+              <div> </div>
+              <div> </div>
+          </div>
+      </div>
+      <h1 class='text'>Readme in progress</h1>
+    </div>
+
+
+  </body>
+</html>
