@@ -15,17 +15,16 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-```html
-<h2>Example of code</h2>
-
-<pre>
-    <div class="container">
-        <div class="block two first">
-            <h2>Your title</h2>
-            <div class="wrap">
-            //Your content
-            </div>
-        </div>
-    </div>
-</pre>
-```
+<center>
+  <table>
+    <tr>
+        <td>
+          <img width="400px" align="center" 
+               src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedromesmer&hide=html,makefile,vhdl,c,qmake,css&langs_count=6&layout=compact&theme=dracula" />
+      </td>
+      <td>
+          <img width="495px" align="center" src="https://github-readme-stats.vercel.app/api?username=pedromesmer&show_icons=true&count_private=true&theme=dracula" />
+      </td>
+    </tr>   
+  </table>
+</center>
