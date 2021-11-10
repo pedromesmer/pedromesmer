@@ -1,26 +1,3 @@
-<!-- <style>
-    .statistic {
-         display: flex;
-        justify-content: space-around;
-    }
-    .contacts {
-        display: flex;
-        justify-content: flex-start;
-        background-color: blue;
-    }
-    .contacts a {
-        margin-right: 20px;
-    }
-
-    .title {
-        font-size: 25px;
-        margin-bottom: 25px;
-    }
-</style> -->
-
-<div class='title'>
-    <hi>Olá pessoal</h1>
-</div>
 
 <!--
 **pedromesmer/pedromesmer** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -37,33 +14,36 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-<!-- <div>
+<div style='font-size: 25px; margin-bottom: 25px;'>
+    <hi>Olá pessoal 👋👋</h1>
+</div>
+
+
+<div style='margin-bottom: 100px'>
     <img src="assets/loading.svg" width="100%" height='100px' alt="css-in-readme">
-</div> -->
+</div>
 
 
 
-<div class='statistic'>
+<div style='display: flex; ustify-content: space-around;'>
   <a href="https://github.com/pedromesmer">
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedromesmer&layout=compact&langs_count=7&theme=dracula"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=pedromesmer&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
 </div>
 
-<div class='contacts'>
+<div style='display: flex; justify-content: flex-start;'>
     <!-- <a href="https://www.youtube.com/seu-canal-youtube-aqui" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank" /> -->
     <!-- <a href="https://www.twitch.tv/seu-usuário-aqui" target="_blank"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" target="_blank" /> -->
-    <a href="https://www.linkedin.com/in/pedromesmer" target="_blank">
+    <a href="https://www.linkedin.com/in/pedromesmer" target="_blank" style='margin-right: 15px'>
         <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
     </a>
-    <a href = "mailto:pedro_mesmer@hotmail.com">
+    <a href = "mailto:pedro_mesmer@hotmail.com" style='margin-right: 15px'>
         <img src="https://img.shields.io/badge/email-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" target="_blank" />
     </a>
-    <a href="https://instagram.com/pedromesmer" target="_blank">
+    <a href="https://instagram.com/pedromesmer" target="_blank" style='margin-right: 15px'>
         <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank" />
     </a>
-    <a href="https://twitter.com/pedromesmer" target="_blank">
+    <a href="https://twitter.com/pedromesmer" target="_blank" style='margin-right: 15px'>
         <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" target="_blank" />
     </a>
 </div>
-
-![Snake animation](https://github.com/pedromesmer/pedromesmer/blob/output/github-contribution-grid-snake.svg)
