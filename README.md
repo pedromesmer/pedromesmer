@@ -14,16 +14,6 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-<div style='font-size: 25px; margin-bottom: 25px;'>
-    <hi>Olá pessoal 👋👋</h1>
-</div>
-
-
-<div style='margin-bottom: 100px'>
-    <img src="assets/loading.svg" width="100%" height='100px' alt="css-in-readme">
-</div>
-
-
 
 <div style='display: flex; ustify-content: space-around;'>
   <a href="https://github.com/pedromesmer">
