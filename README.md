@@ -1,4 +1,4 @@
-<style>
+<!-- <style>
     .statistic {
          display: flex;
         justify-content: space-around;
@@ -16,12 +16,10 @@
         font-size: 25px;
         margin-bottom: 25px;
     }
-</style>
+</style> -->
 
 <div class='title'>
     <hi>Olá pessoal</h1>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_lH3QMK.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop controls autoplay></lottie-player>
 </div>
 
 <!--
