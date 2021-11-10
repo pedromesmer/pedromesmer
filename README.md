@@ -1,4 +1,4 @@
-<!-- <style>
+<style>
     .statistic {
          display: flex;
         justify-content: space-around;
@@ -16,7 +16,7 @@
         font-size: 25px;
         margin-bottom: 25px;
     }
-</style> -->
+</style>
 
 <div class='title'>
     <hi>Olá pessoal</h1>
@@ -43,13 +43,13 @@ Here are some ideas to get you started:
 
 
 
-<div class='statistic'>
+<div class=' display: flex; ustify-content: space-around;'>
   <a href="https://github.com/pedromesmer">
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedromesmer&layout=compact&langs_count=7&theme=dracula"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=pedromesmer&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
 </div>
 
-<div class='contacts'>
+<div class='display: flex; justify-content: flex-start; background-color: blue'>
     <!-- <a href="https://www.youtube.com/seu-canal-youtube-aqui" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank" /> -->
     <!-- <a href="https://www.twitch.tv/seu-usuário-aqui" target="_blank"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" target="_blank" /> -->
     <a href="https://www.linkedin.com/in/pedromesmer" target="_blank">
@@ -66,4 +66,4 @@ Here are some ideas to get you started:
     </a>
 </div>
 
-![Snake animation](https://github.com/pedromesmer/pedromesmer/blob/output/github-contribution-grid-snake.svg)
+<img src="./assets/snake.svg" alt="snake" />
