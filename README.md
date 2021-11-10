@@ -30,7 +30,7 @@ Here are some ideas to get you started:
     <a href = "mailto:pedro_mesmer@hotmail.com" style='margin-right: 15px'>
         <img src="https://img.shields.io/badge/email-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" target="_blank" />
     </a>
-    <a href="https://instagram.com/pedromesmer" target="_blank" style='margin-right: 15px'>
+    <a href="https://www.instagram.com/pedromesmer/" target="_blank" style='margin-right: 15px'>
         <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank" />
     </a>
     <a href="https://twitter.com/pedromesmer" target="_blank" style='margin-right: 15px'>
